@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { background: #fafaf8; }
+body { @apply bg-paper font-sans font-light text-ink antialiased; }
+::selection { background: #e8e8e3; }
